@@ -10,7 +10,7 @@ import {
    actualizarPerfil,
    actualizarPassword
 } from '../controllers/veterinarioController.js';
-import checkAuth from '../middleware/authmiddleware.js';
+import checkAuth from "../middleware/authMiddleware.js";
 
 
 const router = express.Router();
